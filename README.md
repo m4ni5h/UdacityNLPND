@@ -16,3 +16,7 @@ http://mateogianolio.com/wordnet-visualization/
 
 https://github.com/udacity/AIND-NLP
 conda install -c conda-forge wordcloud
+
+http://www.nltk.org/api/nltk.tokenize.html
+
+update your Resume with NLP Pipeline information
