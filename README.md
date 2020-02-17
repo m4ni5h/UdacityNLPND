@@ -9,3 +9,10 @@ Repository for Udacity NLP Nano Degree
  
 - ## Books
 - https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf
+
+
+
+http://mateogianolio.com/wordnet-visualization/
+
+https://github.com/udacity/AIND-NLP
+conda install -c conda-forge wordcloud
