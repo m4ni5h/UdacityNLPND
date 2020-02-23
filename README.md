@@ -9,8 +9,8 @@ Repository for Udacity NLP Nano Degree
  
 - ## Books
 - https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf
-
-
+    - Chapter 9: Hidden Markov Models
+    - Chapter 10: Part-of-Speech Tagging
 
 http://mateogianolio.com/wordnet-visualization/
 
