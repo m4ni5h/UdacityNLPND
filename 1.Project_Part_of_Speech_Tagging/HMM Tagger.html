@@ -13129,7 +13129,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Jupyter &quot;magic methods&quot; -- only need to be run once per kernel restart</span>
@@ -13142,29 +13142,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>The autoreload extension is already loaded. To reload it, use:
-  %reload_ext autoreload
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import python modules -- this cell needs to be run again if you make changes to any of the files</span>
@@ -13207,7 +13188,7 @@ b100-35577
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">Dataset</span><span class="p">(</span><span class="s2">&quot;tags-universal.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;brown-universal.txt&quot;</span><span class="p">,</span> <span class="n">train_test_split</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
@@ -13292,7 +13273,7 @@ len(subset) == 2  # because there are two sentences</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">key</span> <span class="o">=</span> <span class="s1">&#39;b100-38532&#39;</span>
@@ -13340,7 +13321,7 @@ tags:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There are a total of </span><span class="si">{}</span><span class="s2"> samples of </span><span class="si">{}</span><span class="s2"> unique words in the corpus.&quot;</span>
@@ -13392,7 +13373,7 @@ There are 5521 words in the test set that are missing in the training set.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># accessing words with Dataset.X and tags with Dataset.Y </span>
@@ -13443,7 +13424,7 @@ Labels 2: (&#39;CONJ&#39;, &#39;PRT&#39;, &#39;VERB&#39;, &#39;PRT&#39;, &#39;VE
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># use Dataset.stream() (word, tag) samples for the entire corpus</span>
@@ -13512,7 +13493,7 @@ Stream (word, tag) pairs:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">pair_counts</span><span class="p">(</span><span class="n">sequences_A</span><span class="p">,</span> <span class="n">sequences_B</span><span class="p">):</span>
@@ -13558,7 +13539,7 @@ Stream (word, tag) pairs:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[27]:</div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -13583,7 +13564,7 @@ Stream (word, tag) pairs:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a lookup table mfc_table where mfc_table[word] contains the tag label most frequently assigned to that word</span>
@@ -13633,7 +13614,7 @@ Stream (word, tag) pairs:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -13657,7 +13638,7 @@ Stream (word, tag) pairs:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">replace_unknown</span><span class="p">(</span><span class="n">sequence</span><span class="p">):</span>
@@ -13687,7 +13668,7 @@ Stream (word, tag) pairs:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">testing_set</span><span class="o">.</span><span class="n">keys</span><span class="p">[:</span><span class="mi">3</span><span class="p">]:</span>
@@ -13765,7 +13746,7 @@ Actual labels:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">accuracy</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">model</span><span class="p">):</span>
@@ -13810,7 +13791,7 @@ Actual labels:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mfc_training_acc</span> <span class="o">=</span> <span class="n">accuracy</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span> <span class="n">mfc_model</span><span class="p">)</span>
@@ -13846,7 +13827,7 @@ testing accuracy mfc_model: 93.01%
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -13882,7 +13863,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">unigram_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -13926,7 +13907,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[48]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -13950,7 +13931,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">bigram_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -13994,7 +13975,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[62]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -14018,7 +13999,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">starting_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -14059,7 +14040,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[66]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14083,7 +14064,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">ending_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -14124,7 +14105,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[71]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -14166,39 +14147,45 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[96]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">basic_model</span> <span class="o">=</span> <span class="n">HiddenMarkovModel</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;base-hmm-tagger&quot;</span><span class="p">)</span>
 
 <span class="c1"># TODO: create states with emission probability distributions P(word | tag) and add to the model</span>
 <span class="c1"># (Hint: you may need to loop &amp; create/add new states)</span>
-<span class="c1">#basic_model.add_states()</span>
-<span class="n">states</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="c1"># basic_model.add_states()</span>
+<span class="n">states</span> <span class="o">=</span> <span class="p">[]</span>
 
-<span class="k">for</span> <span class="n">tag</span> <span class="ow">in</span> <span class="n">emission_counts</span><span class="p">:</span>
-    <span class="n">distribution</span> <span class="o">=</span> <span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">value</span> <span class="o">/</span> <span class="n">tag_unigrams</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">emission_counts</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-    <span class="n">discrete_distribution</span> <span class="o">=</span> <span class="n">DiscreteDistribution</span><span class="p">(</span><span class="n">distribution</span><span class="p">)</span>
-    <span class="n">states</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span> <span class="o">=</span> <span class="n">State</span><span class="p">(</span><span class="n">discrete_distribution</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="n">tag</span><span class="p">)</span>
-    <span class="n">basic_model</span><span class="o">.</span><span class="n">add_state</span><span class="p">(</span><span class="n">states</span><span class="p">[</span><span class="n">tag</span><span class="p">])</span>
+<span class="kn">import</span> <span class="nn">copy</span>
+<span class="n">dict_tag</span> <span class="o">=</span> <span class="n">copy</span><span class="o">.</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">emission_counts</span><span class="p">)</span>
+<span class="n">dict_states</span> <span class="o">=</span> <span class="p">{}</span> <span class="c1"># key:val = tag:State(tag)</span>
+<span class="k">for</span> <span class="n">tag</span><span class="p">,</span><span class="n">d_tag</span> <span class="ow">in</span> <span class="n">dict_tag</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">Ct</span> <span class="o">=</span> <span class="n">tag_unigrams</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">d_tag</span><span class="p">:</span>
+        <span class="n">d_tag</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="n">d_tag</span><span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="o">/</span><span class="n">Ct</span>
+    <span class="n">word_emissions</span> <span class="o">=</span> <span class="n">DiscreteDistribution</span><span class="p">(</span><span class="n">d_tag</span><span class="p">)</span>
+    <span class="n">state</span> <span class="o">=</span> <span class="n">State</span><span class="p">(</span><span class="n">word_emissions</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="n">tag</span><span class="p">)</span>
+    <span class="n">dict_states</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span> <span class="o">=</span> <span class="n">state</span>
+    <span class="n">states</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">state</span><span class="p">)</span>
+<span class="n">basic_model</span><span class="o">.</span><span class="n">add_states</span><span class="p">(</span><span class="o">*</span><span class="n">states</span><span class="p">)</span>
 
 <span class="c1"># TODO: add edges between states for the observed transition frequencies P(tag_i | tag_i-1)</span>
 <span class="c1"># (Hint: you may need to loop &amp; add transitions</span>
-<span class="c1">#basic_model.add_transition()</span>
-<span class="k">for</span> <span class="n">tag_bigram</span> <span class="ow">in</span> <span class="n">tag_bigrams</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
-    <span class="n">data_length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">)</span>
-    <span class="n">bigramx</span> <span class="o">=</span> <span class="n">tag_bigram</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="n">bigramy</span> <span class="o">=</span> <span class="n">tag_bigram</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-    
-    <span class="n">transition_probability</span> <span class="o">=</span>  <span class="n">tag_starts</span><span class="p">[</span><span class="n">bigramx</span><span class="p">]</span> <span class="o">/</span> <span class="n">data_length</span>
-    <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">basic_model</span><span class="o">.</span><span class="n">start</span><span class="p">,</span> <span class="n">states</span><span class="p">[</span><span class="n">bigramx</span><span class="p">],</span> <span class="n">transition_probability</span><span class="p">)</span>
-    
-    <span class="n">transition_probability</span> <span class="o">=</span> <span class="n">tag_bigrams</span><span class="p">[</span><span class="n">tag_bigram</span><span class="p">]</span> <span class="o">/</span> <span class="n">tag_unigrams</span><span class="p">[</span><span class="n">bigramx</span><span class="p">]</span> 
-    <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">states</span><span class="p">[</span><span class="n">bigramx</span><span class="p">],</span> <span class="n">states</span><span class="p">[</span><span class="n">bigramy</span><span class="p">],</span> <span class="n">transition_probability</span><span class="p">)</span>
-    
+<span class="c1"># basic_model.add_transition()</span>
+<span class="n">N_seq</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">tag</span> <span class="ow">in</span> <span class="n">tag_starts</span><span class="p">:</span>
+    <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">basic_model</span><span class="o">.</span><span class="n">start</span><span class="p">,</span><span class="n">dict_states</span><span class="p">[</span><span class="n">tag</span><span class="p">],</span><span class="n">tag_starts</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span><span class="o">/</span><span class="n">N_seq</span><span class="p">)</span>
 
-    <span class="n">transition_probability</span> <span class="o">=</span> <span class="n">tag_ends</span><span class="p">[</span><span class="n">bigramx</span><span class="p">]</span> <span class="o">/</span> <span class="n">data_length</span>
-    <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">states</span><span class="p">[</span><span class="n">bigramx</span><span class="p">],</span> <span class="n">basic_model</span><span class="o">.</span><span class="n">end</span><span class="p">,</span> <span class="n">transition_probability</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">tag</span> <span class="ow">in</span> <span class="n">tag_ends</span><span class="p">:</span>
+    <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">dict_states</span><span class="p">[</span><span class="n">tag</span><span class="p">],</span><span class="n">basic_model</span><span class="o">.</span><span class="n">end</span><span class="p">,</span><span class="n">tag_ends</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span><span class="o">/</span><span class="n">tag_unigrams</span><span class="p">[</span><span class="n">tag</span><span class="p">])</span>
+
+<span class="k">for</span> <span class="n">tag1</span> <span class="ow">in</span> <span class="n">tag_unigrams</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">tag2</span> <span class="ow">in</span> <span class="n">tag_unigrams</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">tag1</span><span class="p">,</span><span class="n">tag2</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">tag_bigrams</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">dict_states</span><span class="p">[</span><span class="n">tag1</span><span class="p">],</span><span class="n">dict_states</span><span class="p">[</span><span class="n">tag2</span><span class="p">],</span><span class="n">tag_bigrams</span><span class="p">[(</span><span class="n">tag1</span><span class="p">,</span><span class="n">tag2</span><span class="p">)]</span><span class="o">/</span><span class="n">tag_unigrams</span><span class="p">[</span><span class="n">tag1</span><span class="p">])</span>
+
 
 <span class="c1"># NOTE: YOU SHOULD NOT NEED TO MODIFY ANYTHING BELOW THIS LINE</span>
 <span class="c1"># finalize the model</span>
@@ -14222,7 +14209,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[96]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -14238,7 +14225,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hmm_training_acc</span> <span class="o">=</span> <span class="n">accuracy</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span> <span class="n">basic_model</span><span class="p">)</span>
@@ -14274,7 +14261,7 @@ testing accuracy basic hmm model: 95.96%
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[97]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -14297,7 +14284,7 @@ testing accuracy basic hmm model: 95.96%
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">testing_set</span><span class="o">.</span><span class="n">keys</span><span class="p">[:</span><span class="mi">3</span><span class="p">]:</span>
@@ -14377,7 +14364,7 @@ Actual labels:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[99]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!!</span>jupyter nbconvert *.ipynb
@@ -14393,16 +14380,16 @@ Actual labels:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[99]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
 <pre>[&#39;[NbConvertApp] Converting notebook HMM Tagger.ipynb to html&#39;,
- &#39;[NbConvertApp] Writing 377619 bytes to HMM Tagger.html&#39;,
- &#39;[NbConvertApp] Converting notebook HMM warmup (optional).ipynb to html&#39;,
- &#39;[NbConvertApp] Writing 331780 bytes to HMM warmup (optional).html&#39;]</pre>
+ &#39;[NbConvertApp] Writing 378155 bytes to HMM Tagger.html&#39;,
+ &#39;[NbConvertApp] Converting notebook HMM warmup.ipynb to html&#39;,
+ &#39;[NbConvertApp] Writing 331769 bytes to HMM warmup.html&#39;]</pre>
 </div>
 
 </div>
@@ -14435,16 +14422,16 @@ Actual labels:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nltk</span>
-<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">pos_tag</span><span class="p">,</span> <span class="n">word_tokenize</span>
-<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">brown</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#import nltk</span>
+<span class="c1">#from nltk import pos_tag, word_tokenize</span>
+<span class="c1">#from nltk.corpus import brown</span>
 
-<span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">&#39;brown&#39;</span><span class="p">)</span>
-<span class="n">training_corpus</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">corpus</span><span class="o">.</span><span class="n">brown</span>
-<span class="n">training_corpus</span><span class="o">.</span><span class="n">tagged_sents</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+<span class="c1">#nltk.download(&#39;brown&#39;)</span>
+<span class="c1">#training_corpus = nltk.corpus.brown</span>
+<span class="c1">#training_corpus.tagged_sents()[0]</span>
 </pre></div>
 
     </div>
