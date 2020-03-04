@@ -20,3 +20,6 @@ conda install -c conda-forge wordcloud
 http://www.nltk.org/api/nltk.tokenize.html
 
 update your Resume with NLP Pipeline information
+
+
+- http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf
