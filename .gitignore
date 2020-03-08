@@ -9,3 +9,6 @@ ed3book.pdf
 .vscode/launch.json
 TopicModelling/abcnews-date-text.csv
 TopicModelling/.ipynb_checkpoints/Latent_dirichlet_allocation-checkpoint.ipynb
+SentimentAnalysis/.ipynb_checkpoints/
+SentimentAnalysis/cache
+SentimentAnalysis/data
