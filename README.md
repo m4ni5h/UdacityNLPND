@@ -33,3 +33,6 @@ https://www.cv-foundation.org/openaccess/content_cvpr_2016/app/S19-04.pdf	 Video
 https://arxiv.org/pdf/1507.05738.pdf	 Every Moment Counts: Dense Detailed Labeling of Actions in Complex Videos	
 https://arxiv.org/pdf/1708.02711.pdf	 Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge	
 https://arxiv.org/pdf/1607.05910.pdf	 Visual Question Answering: A Survey of Methods and Datasets	
+
+https://arxiv.org/pdf/1609.08144.pdf	 Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
+https://arxiv.org/pdf/1602.06023.pdf	 Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
