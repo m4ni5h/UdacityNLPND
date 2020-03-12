@@ -10,5 +10,5 @@ ed3book.pdf
 TopicModelling/abcnews-date-text.csv
 TopicModelling/.ipynb_checkpoints/Latent_dirichlet_allocation-checkpoint.ipynb
 SentimentAnalysis/.ipynb_checkpoints/
-SentimentAnalysis/cache
-SentimentAnalysis/data
+SentimentAnalysis/cache/
+SentimentAnalysis/data/

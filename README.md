@@ -19,7 +19,10 @@ conda install -c conda-forge wordcloud
 
 http://www.nltk.org/api/nltk.tokenize.html
 
-update your Resume with NLP Pipeline information
-
 
 - http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf
+
+## Attention
+### Bahdanau and Luong Attention
+- https://arxiv.org/abs/1409.0473	 Neural Machine Translation by Jointly Learning to Align and Translate
+- https://arxiv.org/abs/1508.04025	 Effective Approaches to Attention-based Neural Machine Translation
